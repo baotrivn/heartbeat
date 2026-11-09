@@ -178,7 +178,7 @@
       "delayMs": 4534,
       "delaySeconds": 5,
       "delayFormatted": "+5s",
-      "actor": "flynn0",
+      "actor": "baotrivn",
       "commitSha": "381f67c451e743b2edb4725ef787c9ecb859a647",
       "note": "Manual health check",
       "status": "success"
@@ -193,7 +193,7 @@
       "delayMs": 4512,
       "delaySeconds": 5,
       "delayFormatted": "+5s",
-      "actor": "flynn0",
+      "actor": "baotrivn",
       "commitSha": "381f67c",
       "note": "Release v0.1.0 initial verification",
       "status": "success"
@@ -223,7 +223,7 @@
       "delayMs": 6000,
       "delaySeconds": 6,
       "delayFormatted": "+6s",
-      "actor": "flynn0",
+      "actor": "baotrivn",
       "commitSha": "776c324",
       "note": "Initial deployment verification trigger",
       "status": "success"

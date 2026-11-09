@@ -42,7 +42,7 @@ export default function ApiExplorer({ initialData }) {
         delayMs: 4200,
         delaySeconds: 4,
         delayFormatted: "+4s",
-        actor: "flynn0",
+        actor: "baotrivn",
         note: "Release verification trigger",
         status: "success"
       }
@@ -92,7 +92,7 @@ export default function ApiExplorer({ initialData }) {
   const current = endpoints.find(e => e.id === selectedEndpoint) || endpoints[0];
 
   const copyCurl = (path, idx) => {
-    const origin = typeof window !== 'undefined' ? window.location.origin : 'https://flynn0.github.io/heartbeat';
+    const origin = typeof window !== 'undefined' ? window.location.origin : 'https://baotrivn.github.io/heartbeat';
     const cmd = `curl -s "${origin}${path}" | jq .`;
     navigator.clipboard.writeText(cmd);
     setCopiedIndex(idx);
@@ -100,7 +100,7 @@ export default function ApiExplorer({ initialData }) {
   };
 
   const copySpecUrl = (format = 'json') => {
-    const origin = typeof window !== 'undefined' ? window.location.origin : 'https://flynn0.github.io/heartbeat';
+    const origin = typeof window !== 'undefined' ? window.location.origin : 'https://baotrivn.github.io/heartbeat';
     navigator.clipboard.writeText(`${origin}/openapi.${format}`);
     setCopiedSpec(true);
     setTimeout(() => setCopiedSpec(false), 2000);

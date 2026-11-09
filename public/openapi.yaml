@@ -8,16 +8,16 @@ info:
     and complete execution history with latency measurements.
   contact:
     name: Heartbeat Project
-    url: https://github.com/flynn0/heartbeat
+    url: https://github.com/baotrivn/heartbeat
   license:
     name: Apache-2.0
     url: https://www.apache.org/licenses/LICENSE-2.0.html
 servers:
-  - url: https://flynn0.github.io/heartbeat
+  - url: https://baotrivn.github.io/heartbeat
     description: Production GitHub Pages
   - url: http://localhost:5173
     description: Local Vite Development Server
-  - url: https://raw.githubusercontent.com/flynn0/heartbeat/main/public
+  - url: https://raw.githubusercontent.com/baotrivn/heartbeat/main/public
     description: Raw GitHub CDN
 paths:
   /api/latest-delay.json:
@@ -162,7 +162,7 @@ components:
           example: '+5s'
         actor:
           type: string
-          example: flynn0
+          example: baotrivn
         commitSha:
           type: string
           example: '776c324'

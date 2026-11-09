@@ -6,7 +6,7 @@
     "description": "Machine-readable REST API for Heartbeat — GitHub Actions Cron Jitter & Runner Delay Observatory. Provides endpoints to retrieve the latest cron schedule delay, latest manual trigger and delay, and complete execution history with latency measurements.",
     "contact": {
       "name": "Heartbeat Project",
-      "url": "https://github.com/flynn0/heartbeat"
+      "url": "https://github.com/baotrivn/heartbeat"
     },
     "license": {
       "name": "Apache-2.0",
@@ -15,7 +15,7 @@
   },
   "servers": [
     {
-      "url": "https://flynn0.github.io/heartbeat",
+      "url": "https://baotrivn.github.io/heartbeat",
       "description": "Production GitHub Pages"
     },
     {
@@ -23,7 +23,7 @@
       "description": "Local Vite Development Server"
     },
     {
-      "url": "https://raw.githubusercontent.com/flynn0/heartbeat/main/public",
+      "url": "https://raw.githubusercontent.com/baotrivn/heartbeat/main/public",
       "description": "Raw GitHub CDN"
     }
   ],
@@ -243,7 +243,7 @@
           "actor": {
             "type": "string",
             "description": "User who dispatched the workflow",
-            "example": "flynn0"
+            "example": "baotrivn"
           },
           "commitSha": {
             "type": "string",

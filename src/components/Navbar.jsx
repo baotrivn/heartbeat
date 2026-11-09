@@ -56,7 +56,7 @@ export default function Navbar({ theme, onToggleTheme, version = '0.1.1' }) {
 
           {/* GitHub Repo */}
           <a
-            href="https://github.com/flynn0/heartbeat"
+            href="https://github.com/baotrivn/heartbeat"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-900 text-white dark:bg-white dark:text-slate-900 text-xs font-semibold hover:bg-slate-800 dark:hover:bg-slate-100 transition-all shadow-xs"

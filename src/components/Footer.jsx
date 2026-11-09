@@ -26,13 +26,13 @@ export default function Footer({ version = '0.1.1', lastUpdated }) {
               <span>Apache-2.0 License</span>
             </div>
             <a
-              href="https://github.com/flynn0/heartbeat"
+              href="https://github.com/baotrivn/heartbeat"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-1.5 hover:text-slate-900 dark:hover:text-white transition-colors"
             >
               <GithubIcon className="w-3.5 h-3.5" />
-              <span>flynn0/heartbeat</span>
+              <span>baotrivn/heartbeat</span>
             </a>
           </div>
         </div>

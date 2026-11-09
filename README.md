@@ -21,7 +21,7 @@ Additionally, manual triggers (`workflow_dispatch`) can be triggered anytime —
   - `GET /api/history.json`: Complete execution history and latency measurements.
   - `GET /api/summary.json`: Unified status overview and schedule metrics.
 - **📄 Machine-Readable Description**:
-  - Full **OpenAPI 3.1.0** specification in [`openapi.json`](file:///home/mk/AI-Agents/antigravity/heartbeat/openapi.json) and [`openapi.yaml`](file:///home/mk/AI-Agents/antigravity/heartbeat/openapi.yaml).
+  - Full **OpenAPI 3.1.0** specification in [`openapi.json`](openapi.json) and [`openapi.yaml`](openapi.yaml).
 - **Vite Visualizer Dashboard**:
   - 🌓 **Light & Dark mode** with automatic persistence.
   - 📊 **Interactive SVG Delay Chart**: Switch between bar chart and trend line; toggle units between minutes and seconds.
@@ -50,16 +50,16 @@ All API endpoints are statically generated, CORS-ready, and available over HTTP/
 
 ```bash
 # Retrieve latest cron delay time
-curl -s "https://flynn0.github.io/heartbeat/api/latest-delay.json" | jq .
+curl -s "https://baotrivn.github.io/heartbeat/api/latest-delay.json" | jq .
 
 # Retrieve latest manual trigger and delay
-curl -s "https://flynn0.github.io/heartbeat/api/latest-manual.json" | jq .
+curl -s "https://baotrivn.github.io/heartbeat/api/latest-manual.json" | jq .
 
 # Retrieve full execution history and measurements
-curl -s "https://flynn0.github.io/heartbeat/api/history.json" | jq .
+curl -s "https://baotrivn.github.io/heartbeat/api/history.json" | jq .
 
 # Inspect OpenAPI 3.1 machine-readable specification
-curl -s "https://flynn0.github.io/heartbeat/openapi.json" | jq .info
+curl -s "https://baotrivn.github.io/heartbeat/openapi.json" | jq .info
 ```
 
 ---
