@@ -1,10 +1,10 @@
 {
   "version": "0.1.1",
-  "lastUpdated": "2026-11-09T08:17:46.256Z",
+  "lastUpdated": "2026-11-09T09:02:06.284Z",
   "statistics": {
-    "totalRuns": 14,
+    "totalRuns": 15,
     "cronRuns": 10,
-    "manualRuns": 4,
+    "manualRuns": 5,
     "latestCronDelaySeconds": 2005398,
     "averageCronDelaySeconds": 201067,
     "minCronDelaySeconds": 214,
@@ -153,6 +153,21 @@
     }
   ],
   "manualHistory": [
+    {
+      "id": "manual-1794214926286",
+      "type": "manual",
+      "runId": "42590246519",
+      "runNumber": 3,
+      "dispatchTime": "2026-11-09T09:02:02.084Z",
+      "actualTime": "2026-11-09T09:02:06.284Z",
+      "delayMs": 4200,
+      "delaySeconds": 4,
+      "delayFormatted": "+4s",
+      "actor": "baotrivn",
+      "commitSha": "8151b6cc52acb415884be39a965f51d9fd96ac6a",
+      "note": "Manual health check",
+      "status": "success"
+    },
     {
       "id": "manual-1794211587536",
       "type": "manual",
